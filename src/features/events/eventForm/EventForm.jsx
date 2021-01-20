@@ -2,25 +2,29 @@ import React, {useState} from "react";
 import {Button, Form, Header, Segment} from "semantic-ui-react";
 import cuid from "cuid";
 
-export default function EventForm({setFormOpen, setEvents, createEvent}) {
-    const initialValues = {
+export default function EventForm({setFormOpen, setEvents, createEvent, selectedEvent, updateEvent}) {
+    const initialValues = selectedEvent ?? {
         title: '',
         category: '',
         description: '',
         city: '',
         venue: '',
-        date: ''
-    }
+        date: '',
+    };
+
 
     const [values, setValues] = useState(initialValues);
 
     function handleFormSubmit() {
-        createEvent({
-            ...values, id: cuid(),
-            hostedBy: 'Javid',
-            attendees: [],
-            hostPhotoURL: '/assets/user.png'
-        });
+
+        selectedEvent
+            ? updateEvent({...selectedEvent, ...values})
+            : createEvent({
+                ...values, id: cuid(),
+                hostedBy: 'Javid',
+                attendees: [],
+                hostPhotoURL: '/assets/user.png'
+            });
         setFormOpen(false);
     }
 
@@ -31,7 +35,7 @@ export default function EventForm({setFormOpen, setEvents, createEvent}) {
 
     return (
         <Segment clearing>
-            <Header content='Create new event'/>
+            <Header content={selectedEvent ? 'Edit the event' : 'Create new event'}/>
             <Form onSubmit={handleFormSubmit}>
                 <Form.Field>
                     <input type="text" placeholder='Event title' name='title'
@@ -48,6 +52,7 @@ export default function EventForm({setFormOpen, setEvents, createEvent}) {
                            value={values.description}
                            onChange={(e) => handleInputChange(e)}/>
                 </Form.Field>
+
                 <Form.Field>
                     <input type="text" placeholder='City' name='city'
                            value={values.city}

@@ -5,9 +5,10 @@
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/events/eventDashboard/EventDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/events/eventDashboard/EventDashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/events/eventDashboard/EventList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/events/eventDashboard/EventList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/events/eventDashboard/EventListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/events/eventDashboard/EventListItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/events/eventForm/EventForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/events/eventForm/EventForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,9 @@
       <workItem from="1610739405215" duration="768000" />
       <workItem from="1610740208416" duration="1863000" />
       <workItem from="1610744542298" duration="350000" />
-      <workItem from="1610822765311" duration="7102000" />
+      <workItem from="1610822765311" duration="11510000" />
+      <workItem from="1610912869994" duration="5644000" />
+      <workItem from="1610925749913" duration="1476000" />
     </task>
     <task id="LOCAL-00001" summary="Section 3">
       <created>1610741346889</created>
