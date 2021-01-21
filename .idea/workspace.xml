@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8201cb-e0df-4bd9-84a9-f8aff0bdf645" name="Default Changelist" comment="Section 3">
-      <change afterPath="$PROJECT_DIR$/src/features/events/eventDetailed/EventDetailedPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/home/HomePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/nav/SignedInMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/nav/SignedOutMenu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/home/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/home/HomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/nav/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/nav/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,9 @@
       <workItem from="1610912869994" duration="5644000" />
       <workItem from="1610925749913" duration="1476000" />
       <workItem from="1611164816791" duration="4309000" />
+      <workItem from="1611181766304" duration="1000" />
+      <workItem from="1611247572894" duration="15000" />
+      <workItem from="1611247590950" duration="6584000" />
     </task>
     <task id="LOCAL-00001" summary="Section 3">
       <created>1610741346889</created>
