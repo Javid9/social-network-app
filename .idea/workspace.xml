@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8201cb-e0df-4bd9-84a9-f8aff0bdf645" name="Default Changelist" comment="Section 3">
-      <change afterPath="$PROJECT_DIR$/src/features/nav/SignedInMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/nav/SignedOutMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/events/eventDetailed/EventDetailedChat.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/events/eventDetailed/EventDetailedHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/events/eventDetailed/EventDetailedInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/events/eventDetailed/EventDetailedSidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/home/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/home/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/events/eventDashboard/EventDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/events/eventDashboard/EventDashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/events/eventDashboard/EventListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/events/eventDashboard/EventListItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/events/eventDetailed/EventDetailedPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/events/eventDetailed/EventDetailedPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/events/eventForm/EventForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/events/eventForm/EventForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/nav/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/nav/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/nav/SignedInMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/nav/SignedInMenu.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +86,7 @@
       <workItem from="1611181766304" duration="1000" />
       <workItem from="1611247572894" duration="15000" />
       <workItem from="1611247590950" duration="6584000" />
+      <workItem from="1611353767258" duration="5624000" />
     </task>
     <task id="LOCAL-00001" summary="Section 3">
       <created>1610741346889</created>
